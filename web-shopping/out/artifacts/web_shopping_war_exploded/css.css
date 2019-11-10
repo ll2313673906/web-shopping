@@ -1,0 +1,35 @@
+body{
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+.row{
+    display: flex;
+    flex-wrap:wrap ;
+    padding: 0;
+    width: 100%;
+    margin-top: 5px;
+}
+[class*='col-']{
+    border: 1px solid black;
+    -webkit-box-flex: 1;
+    -webkit-flex: 1;
+    -ms-flex: 1;
+    flex: 1;
+    min-height: 10px;
+    border: indigo;
+
+
+
+}
+img{
+    height: 100%;
+    width: 100%;
+
+}
+th{
+    text-align: center;
+}
+td{
+    text-align: left;
+}
